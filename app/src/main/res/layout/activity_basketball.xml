@@ -42,88 +42,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="88dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0">
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="TEAM1"
-                android:textSize="24sp"
-                tools:text="TEAM1" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="127dp"
-                android:gravity="center"
-                android:text="SCORE"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                tools:text="SCORE" />
-
-            <Button
-                android:id="@+id/button33"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                app:layout_goneMarginBottom="4dp"
-                android:onClick="btnAdd33"
-                android:text="+3POINTS"
-                android:background="@color/colorAccent"
-                android:textSize="18sp"
-                tools:text="+3POINTS" />
-
-            <Button
-                android:id="@+id/button22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                app:layout_goneMarginBottom="4dp"
-                android:background="@color/colorAccent"
-                android:onClick="btnAdd22"
-                android:text="+2POINTS"
-                android:textSize="18sp"
-                tools:text="+2POINTS" />
-
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                app:layout_goneMarginBottom="4dp"
-                android:background="@color/colorAccent"
-                android:onClick="btnAdd11"
-                android:text="+1POINTS"
-                android:textSize="18sp" />
-            android:textSize="18sp"
-            tools:text="+1POINTS" />
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="4dp"
-            android:layout_height="311dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:background="@color/colorPrimary" />
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,9 +62,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="TEAM2"
+                android:text="TEAM1"
                 android:textSize="24sp"
-                tools:text="TEAM2" />
+                tools:text="TEAM1" />
 
             <TextView
                 android:id="@+id/textView2"
