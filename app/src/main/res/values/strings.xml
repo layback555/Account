@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Account</string>
+    <string name="rmb">请输入人民币（保留两位小数）</string>
 </resources>
