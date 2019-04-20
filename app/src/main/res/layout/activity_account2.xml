@@ -75,9 +75,9 @@
                 android:layout_height="127dp"
                 android:gravity="center"
                 android:text="SCORE"
-                android:textSize="30sp"
+                android:textSize="65sp"
                 android:textStyle="bold"
-                tools:text="SCORE" />
+                tools:text="0" />
 
             <Button
                 android:id="@+id/button33"
@@ -154,9 +154,9 @@
                 android:layout_height="127dp"
                 android:gravity="center"
                 android:text="SCORE"
-                android:textSize="30sp"
+                android:textSize="65sp"
                 android:textStyle="bold"
-                tools:text="SCORE" />
+                tools:text="0" />
 
             <Button
                 android:id="@+id/button3"
