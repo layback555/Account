@@ -8,6 +8,25 @@ import android.widget.TextView;
 
 public class Account2 extends AppCompatActivity {
     TextView score,score1;
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        String scorea=((TextView)findViewById(R.id.textView2)).getText().toString();
+        String scoreb=((TextView)findViewById(R.id.textView4)).getText().toString();
+        outState.putString("scorea",scorea);
+        outState.putString("scoreb",scoreb);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        String scorea=savedInstanceState.getString("scorea");
+        String scoreb=savedInstanceState.getString("scoreb");
+        ((TextView)findViewById(R.id.textView2)).setText(scorea);
+        ((TextView)findViewById(R.id.textView4)).setText(scoreb);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
