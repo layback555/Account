@@ -9,7 +9,6 @@ import android.widget.EditText;
 
 public class  MainActivity extends AppCompatActivity {
     public final String TAG="MainActivity";
-
     EditText dollartext;
     EditText eurotext;
     EditText wontext;

@@ -15,7 +15,6 @@ public class BasketballActivity extends AppCompatActivity {
         score = (TextView)findViewById(R.id.textView2);
         score.setText("0");
     }
-
      public void btnAdd1(View btn){
         showScore(1);
     }

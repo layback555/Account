@@ -74,7 +74,7 @@
             android:id="@+id/btn_open"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="openOne"
+            android:onClick="openMain"
             android:text="CONFIG"
             tools:text="@string/btn_open" />
 
