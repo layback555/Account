@@ -17,18 +17,16 @@
         <activity android:name=".Account2" />
         <!--suppress AndroidDomInspection -->
         <activity android:name="com.example.asus.account.Rate" >
-        </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".RateListActivity" />
-        <activity android:name=".MyListActivity" >
-
-        </activity>
-
-        <activity android:name=".MyList2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RateListActivity" />
+        <activity android:name=".MyListActivity" >
+        </activity>
+        <activity android:name=".MyList2Activity">
         </activity>
         <activity android:name=".RateCalcActivity" android:theme="@style/Base.Theme.AppCompat.Dialog"></activity>
     </application>
